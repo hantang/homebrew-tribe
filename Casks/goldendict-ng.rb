@@ -1,7 +1,4 @@
 cask "goldendict-ng" do
-  url "https://github.com/noah-nuebling/mac-mouse-fix/releases/download/#{version}/MacMouseFixApp.zip",
-      verified: "github.com/noah-nuebling/mac-mouse-fix/"
-
     version "v23.09.10-WhiteDew.54c8bd56"
     sha256 "879b64bac876d33c3408699ea1b7ed0df6a6a6d425301a98a97d6934d5799e65"
   
@@ -12,11 +9,13 @@ cask "goldendict-ng" do
     homepage "https://xiaoyifang.github.io/goldendict-ng/"
   
     livecheck do
-      url "https://github.com/xiaoyifang/goldendict-ng"
+      url :url # "https://github.com/xiaoyifang/goldendict-ng"
+      strategy :github_latest
     end
-  
-    depends_on macos: ">= :sierra"
-  
+
+    # depends_on macos: ">= :sierra"
+    auto_updates true
+
     app "GoldenDictNG.app"
     binary "#{appdir}/GoldenDictNG.app/Contents/MacOS/GoldenDict"
   

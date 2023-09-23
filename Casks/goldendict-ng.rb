@@ -16,8 +16,8 @@ cask "goldendict-ng" do
     # depends_on macos: ">= :sierra"
     auto_updates true
 
-    app "GoldenDictNG.app"
-    # binary "#{appdir}/GoldenDictNG.app/Contents/MacOS/GoldenDict"
+    app "GoldenDict.app"
+    # binary "#{appdir}/GoldenDict.app/Contents/MacOS/GoldenDict"
   
     zap trash: [
       "~/Library/Preferences/org.xiaoyifang.plist",

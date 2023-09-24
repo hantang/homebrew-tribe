@@ -23,5 +23,6 @@ cask "goldendict-ng" do
     "~/Library/Preferences/org.xiaoyifang.plist",
     "~/Library/Saved Application State/org.xiaoyifang.savedState",
     "~/.goldendict",
+    "~/Library/Caches/GoldenDict-ng"
   ]
 end

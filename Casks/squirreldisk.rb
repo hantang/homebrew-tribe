@@ -20,7 +20,7 @@ cask "squirreldisk" do
   
   zap trash: [
     "~/Library/Preferences/com.squirreldisk.dev.plist",
-    "~/Library/Saved Application State/com.squirreldisk.dev.savedState"
+    "~/Library/Saved Application State/com.squirreldisk.dev.savedState",
     "~/Library/Caches/com.squirreldisk.dev"
   ]
 end

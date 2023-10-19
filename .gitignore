@@ -65,9 +65,11 @@ build-iPhoneSimulator/
 # ide
 .vscode/
 .idea/
-.trash/
 
 # more
+.trash/
+back/
+tmp/
 temp/
 todo/
 # src/

@@ -1,9 +1,9 @@
 cask "goldendict-ng" do
   version "v23.12.07-HeavySnow.b0086d5c"
   sha256 ""
-  version_qt: "6.6.1"
-  version_mac: "13"
-  version_date: "20231208"
+  version_qt "6.6.1"
+  version_mac "13"
+  version_date "20231208"
 
   url "https://github.com/xiaoyifang/goldendict-ng/releases/download/#{version}/#{version_qt}-GoldenDict_macos-#{version_mac}_homebrew_#{version_date}.dmg",
     verified: "https://github.com/xiaoyifang/goldendict-ng/"

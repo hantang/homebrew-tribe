@@ -1,8 +1,11 @@
 cask "goldendict-ng" do
-  version "v23.09.10-WhiteDew.54c8bd56"
-  sha256 "879b64bac876d33c3408699ea1b7ed0df6a6a6d425301a98a97d6934d5799e65"
-  
-  url "https://github.com/xiaoyifang/goldendict-ng/releases/download/#{version}/6.4.3-GoldenDict_macos-13_homebrew_20230910.dmg",
+  version "v23.12.07-HeavySnow.b0086d5c"
+  sha256 ""
+  version_qt: "6.6.1"
+  version_mac: "13"
+  version_date: "20231208"
+
+  url "https://github.com/xiaoyifang/goldendict-ng/releases/download/#{version}/#{version_qt}-GoldenDict_macos-#{version_mac}_homebrew_#{version_date}.dmg",
     verified: "https://github.com/xiaoyifang/goldendict-ng/"
   name "GoldenDict-ng"
   desc "The Next Generation GoldenDict. A feature-rich open-source dictionary lookup program, supporting multiple dictionary formats and online dictionaries."
